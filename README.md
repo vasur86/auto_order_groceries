@@ -1,7 +1,7 @@
 # auto_order_groceries
 
 
-##Run script to Order
+## Run script to Order
 - Login to Amazon
 - Add items to the cart from whole foods
 - Make sure the payment details are up to date 
