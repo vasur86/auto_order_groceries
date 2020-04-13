@@ -21,8 +21,8 @@ or
 python order.py -u your-amazon-user-name -p your-amazon-password
 ```
 
-##How to Install (one time setup):
-###Step 1: Check if Python and pip is installed
+## How to Install (one time setup):
+### Step 1: Check if Python and pip is installed
 Where to get Python 3.4+: https://www.python.org/downloads/
 1. Python 3.4+ installed
 2. Pip installed(should come packaged with Python)
@@ -34,7 +34,7 @@ python --version
 pip --version
 ```
 
-###Step 2: Download chrome driver
+### Step 2: Download chrome driver
 Download the driver that matches the version of chrome that your running and correct operating system: https://sites.google.com/a/chromium.org/chromedriver/downloads
 
 If you do not know your chrome version, copy and paste this to your url search and you will get your version:
@@ -43,7 +43,7 @@ chrome://settings/help
 Add path of the chromedriver to PATH environment variable.
 
 
-###Step 3: Folder/dir setup
+### Step 3: Folder/dir setup
 Open your terminal(mac/linux) or git bash(windows)
 Make a folder to store all of the contents we will be working with and navigate to it in the terminal:
 ```
@@ -53,7 +53,7 @@ mkdir order_auto
 cd order_auto
 ```
 
-###Step 4: Installing virtualenv and creating our virtual environment
+### Step 4: Installing virtualenv and creating our virtual environment
 Make sure your current directory is the one we created earlier named "order_auto"
 Lets install, create, and activate our virtual environment with the commands below:
 ```
@@ -71,7 +71,7 @@ source env/bin/activate
 source env/Scripts/activate
 ```
 
-###Step 5: Installing dependencies
+### Step 5: Installing dependencies
 Input the command below in the terminal:
 ```
 pip install -r requirements.txt
